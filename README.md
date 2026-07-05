@@ -320,7 +320,8 @@
             document.getElementById('p-total-final').innerText = `TOTAL NETO: $ ${d.total.toLocaleString('en-US', {minimumFractionDigits:2})}`;
             
             // Disparar comando nativo de impresión limpia del navegador
-            window.print();
+            window.print();.
+            
         };
     </script>
 </body>
